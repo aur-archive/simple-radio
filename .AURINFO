@@ -1,0 +1,21 @@
+pkgbase = simple-radio
+	pkgdesc = Streaming player for listening to online radios
+	pkgver = 167.250ee01
+	pkgrel = 1
+	url = https://github.com/alphaos/build
+	install = simple-radio.install
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = vala
+	makedepends = git
+	depends = libnotify
+	depends = dconf
+	depends = desktop-file-utils
+	depends = hicolor-icon-theme
+	depends = libmp-control
+	depends = gtk3
+	source = alphaos::git+https://github.com/alphaos/build
+
+pkgname = simple-radio
+
